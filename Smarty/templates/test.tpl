@@ -1,0 +1,1 @@
+﻿{$objname}{$description}{$publisher}{$type}{$class}{$price}
