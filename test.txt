@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SimpleOne - A Responsive Html5 Ecommerce Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Crete+Round' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/flexslider.css" type="text/css" media="screen" rel="stylesheet"  />
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/cloud-zoom.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- fav -->
+<link rel="shortcut icon" href="assets/ico/favicon.html">
+</head>
+<body>
+<!-- Header Start -->
+<header>
+  <div class="headerstrip">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <a href="index-2.html" class="logo pull-left"><img src="img/bluelogo.jpg" alt="SimpleOne" title="SimpleOne"></a>
+          <!-- Top Nav Start -->
+          <div class="pull-left">
+            <div class="navbar" id="topnav">
+              <div class="navbar-inner">
+                <ul class="nav" >
+                  <li><a class="home active" href="#">主页</a>
+                  </li>
+                  <li><a class="myaccount" href="#">个人中心</a>
+                  </li>
+                  <li><a class="shoppingcart" href="#">登录</a>
+                  </li>
+                  <li><a class="checkout" href="#">注册</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Top Nav End -->
+          <div class="pull-right">
+            <form class="form-search top-search">
+              <input type="text" class="input-medium search-query" placeholder="请输入关键字">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="container">
+    <div class="headerdetails">
+      <div class="pull-left">
+        
+      </div>
+      <div class="pull-right">
+        
+      </div>
+    </div>
+    <div id="categorymenu">
+      <nav class="subnav">
+        <ul class="nav-pills categorymenu">
+          <li><a class="active"  href="index-4.html">主页</a></li>
+          <li><a href="product.html">二手</a></li>
+          <li><a  href="category.html">漂流</a></li>
+          <li><a href="shopping-cart.html">图书</a></li>
+          <li><a href="checkout.html">女装</a></li>
+          <li><a href="compare.html">男装</a></li>  
+		  <li><a href="blog.html">单车</a></li>		  
+          <li><a href="blog.html">数码</a></li>
+		  <li><a href="blog.html">家居日用</a></li>
+		  <li><a href="blog.html">家用电器</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Header End -->
+
+<div id="maincontainer">
+  <!-- Slider Start-->
+  <section class="slider">
+    <div class="container">
+      <div id="sliderindex4" class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/banner3.jpg" alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"   alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+        </ul>
+      </div>
+      <div id="carouseindex4" class="flexslider">
+        <ul class="slides">
+          <li>
+            <h3>五三</h3>
+            <p>正版 2015 五年高考三年模拟英 5年高考3年模拟高考英语新课标专用2015B版 十周年珍藏版 ！你值得拥有！</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件 </p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Slider End-->
+
+  <div class="container">
+    <div class="row">
+      <aside class="span3 mt40">
+        <!-- Category-->
+        <div class="sidewidt">
+          <h2 class="heading2"><span>分类</span></h2>
+          <ul class="nav nav-list categories">
+              <li>
+                <a href="category.html">二手</a>
+              </li>
+              <li>
+                <a href="category.html">漂流</a>
+              </li>
+              <li>
+                <a href="category.html">图书 </a>
+              </li>
+              <li>
+                <a href="category.html">服装 </a>
+              </li>
+              <li>
+                <a href="category.html">电器</a>
+              </li>
+              <li>
+                <a href="category.html">其他</a>
+              </li>
+            </ul>
+        </div>
+        <!-- Testimonial-->
+        <div class="sidewidt">
+          <h2 class="heading2"><span>漂流</span></h2>
+          <div class="flexslider" id="testimonialsidebar">
+            <ul class="slides">
+
+              <li><img src="img/product1a.jpg" alt="" title=""/></li>
+              <li>
+                <img src="img/product2a.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Must Have-->
+        <div class="sidewidt mt20">
+          <h2 class="heading2"><span>二手</span></h2>
+          <div class="flexslider" id="mainsliderside">
+            <ul class="slides">
+              <li>
+                <img src="img/product1a.jpg" alt="" />
+              </li>
+              <li>
+                <img src="img/product2a.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sidewidt">
+            <h2 class="heading2"><span>最新商品</span></h2>
+            <ul class="bestseller">
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      <!-- Featured Product-->
+      <div class="span9">
+        <section id="featured" class="row mt40">
+          <h1 class="heading1 mt0"><span class="maintext">最新</span></h1>
+            <ul class="thumbnails">
+            <div class="grid grid--has-banner js-masonry" data-masonry-options="{ &quot;itemSelector&quot;: &quot;.grid-item&quot;, &quot;columnWidth&quot;: 80 }">
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥10.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/product1.jpg"></a>
+                 
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+                          <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥10.00</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  <a href="#"><img alt="" src="img/product2.jpg"></a>
+                  
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/product1.jpg"></a>
+                  
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup-->
+    </div>
+</div>
+<!-- /maincontainer -->
+<!-- Footer -->
+<footer id="footer">
+  <section class="footersocial">
+    <div class="container">
+      <div class="row">
+        
+		<div class="span3 aboutus">
+          <h2>关于我们</h2>
+          <p> DFgH小组项目————SecHanDrift ，一个用来二手和漂流的网站平台 DFgH小组项目————SecHanDrift ，一个用来二手和漂流的网站平台 <br>
+            <br>
+           </p>
+        </div>
+        <div class="span3 contact">
+          <h2>联系我们 </h2>
+          <ul>
+            <li class="phone"> +123 456 7890, +123 456 7890</li>
+            <li class="mobile"> +123 456 7890, +123 456 78900</li>
+            <li class="email"> test@test.com</li>
+            
+          </ul>
+        </div>
+        <div class="span3 twitter">
+          <h2>微博 </h2>
+          <div>
+          </div>
+        </div>
+        <div class="span3 facebook">
+          <h2>Facebook </h2>
+          <div id="fb-root"></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  
+</footer>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/application.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script defer src="js/jquery.fancybox.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script  src="js/cloud-zoom.1.0.2.js"></script>
+<script  type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript"  src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script type="text/javascript"  src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript"  src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript"  src="js/jquery.ba-throttle-debounce.min.js"></script>
+<script defer src="js/custom.js"></script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SimpleOne - A Responsive Html5 Ecommerce Template</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300italic,400italic,600,600italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Crete+Round' rel='stylesheet' type='text/css'><link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/bootstrap-responsive.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/flexslider.css" type="text/css" media="screen" rel="stylesheet"  />
+<link href="css/jquery.fancybox.css" rel="stylesheet">
+<link href="css/cloud-zoom.css" rel="stylesheet">
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+<!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+<!-- fav -->
+<link rel="shortcut icon" href="assets/ico/favicon.html">
+</head>
+<body>
+<!-- Header Start -->
+<header>
+  <div class="headerstrip">
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <a href="index-2.html" class="logo pull-left"><img src="img/bluelogo.jpg" alt="SimpleOne" title="SimpleOne"></a>
+          <!-- Top Nav Start -->
+          <div class="pull-left">
+            <div class="navbar" id="topnav">
+              <div class="navbar-inner">
+                <ul class="nav" >
+                  <li><a class="home active" href="#">主页</a>
+                  </li>
+                  <li><a class="myaccount" href="#">个人中心</a>
+                  </li>
+                  <li><a class="shoppingcart" href="#">登录</a>
+                  </li>
+                  <li><a class="checkout" href="#">注册</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Top Nav End -->
+          <div class="pull-right">
+            <form class="form-search top-search">
+              <input type="text" class="input-medium search-query" placeholder="请输入关键字">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="container">
+    <div class="headerdetails">
+      <div class="pull-left">
+        
+      </div>
+      <div class="pull-right">
+        
+      </div>
+    </div>
+    <div id="categorymenu">
+      <nav class="subnav">
+        <ul class="nav-pills categorymenu">
+          <li><a class="active"  href="index-4.html">主页</a></li>
+          <li><a href="product.html">二手</a></li>
+          <li><a  href="category.html">漂流</a></li>
+          <li><a href="shopping-cart.html">图书</a></li>
+          <li><a href="checkout.html">女装</a></li>
+          <li><a href="compare.html">男装</a></li>  
+		  <li><a href="blog.html">单车</a></li>		  
+          <li><a href="blog.html">数码</a></li>
+		  <li><a href="blog.html">家居日用</a></li>
+		  <li><a href="blog.html">家用电器</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>
+<!-- Header End -->
+
+<div id="maincontainer">
+  <!-- Slider Start-->
+  <section class="slider">
+    <div class="container">
+      <div id="sliderindex4" class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/banner3.jpg" alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"   alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner1.jpg"  alt="" title="" />
+          </li>
+          <li>
+            <img src="img/banner2.jpg"  alt="" title="" />
+          </li>
+        </ul>
+      </div>
+      <div id="carouseindex4" class="flexslider">
+        <ul class="slides">
+          <li>
+            <h3>五三</h3>
+            <p>正版 2015 五年高考三年模拟英 5年高考3年模拟高考英语新课标专用2015B版 十周年珍藏版 ！你值得拥有！</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件 </p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+          <li>
+            <h3>针织衫</h3>
+            <p>针织衫买一送一 现在购买就送背心一件</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- Slider End-->
+
+  <div class="container">
+    <div class="row">
+      <aside class="span3 mt40">
+        <!-- Category-->
+        <div class="sidewidt">
+          <h2 class="heading2"><span>分类</span></h2>
+          <ul class="nav nav-list categories">
+              <li>
+                <a href="category.html">二手</a>
+              </li>
+              <li>
+                <a href="category.html">漂流</a>
+              </li>
+              <li>
+                <a href="category.html">图书 </a>
+              </li>
+              <li>
+                <a href="category.html">服装 </a>
+              </li>
+              <li>
+                <a href="category.html">电器</a>
+              </li>
+              <li>
+                <a href="category.html">其他</a>
+              </li>
+            </ul>
+        </div>
+        <!-- Testimonial-->
+        <div class="sidewidt">
+          <h2 class="heading2"><span>漂流</span></h2>
+          <div class="flexslider" id="testimonialsidebar">
+            <ul class="slides">
+
+              <li><img src="img/product1a.jpg" alt="" title=""/></li>
+              <li>
+                <img src="img/product2a.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- Must Have-->
+        <div class="sidewidt mt20">
+          <h2 class="heading2"><span>二手</span></h2>
+          <div class="flexslider" id="mainsliderside">
+            <ul class="slides">
+              <li>
+                <img src="img/product1a.jpg" alt="" />
+              </li>
+              <li>
+                <img src="img/product2a.jpg" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sidewidt">
+            <h2 class="heading2"><span>最新商品</span></h2>
+            <ul class="bestseller">
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+              <li>
+                <img width="50" height="50" src="img/prodcut-40x40.jpg" alt="product" title="product">
+                <a class="productname" href="product.html"> 针织衫</a>
+                <span class="procategory">女装</span>
+                <span class="price">￥130</span>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      <!-- Featured Product-->
+      <div class="span9">
+        <section id="featured" class="row mt40">
+          <h1 class="heading1 mt0"><span class="maintext">最新</span></h1>
+            <ul class="thumbnails">
+            <div class="grid grid--has-banner js-masonry" data-masonry-options="{ &quot;itemSelector&quot;: &quot;.grid-item&quot;, &quot;columnWidth&quot;: 80 }">
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥10.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/product1.jpg"></a>
+                 
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+                          <li class="span3">
+                <a class="prdocutname" href="product.html">摩豹K50有线游戏键盘</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/keyboard.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥19.90</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">新鲜荔枝</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/lychee.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥100.00</div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">洗衣机</a>
+                <div class="thumbnail">
+                 
+                  <a href="#"><img alt="" src="img/xiyiji.jpg"></a>
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥10.00</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  <a href="#"><img alt="" src="img/product2.jpg"></a>
+                  
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                     
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="span3">
+                <a class="prdocutname" href="product.html">针织衫</a>
+                <div class="thumbnail">
+                  
+                  <a href="#"><img alt="" src="img/product1.jpg"></a>
+                  
+                  <div class="pricetag">
+                    <span class="spiral"></span><a href="#" class="productde">商品详情</a>
+                    <div class="price">
+                      <div class="pricenew">￥130</div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </div>
+            </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- Newsletter Signup-->
+    </div>
+</div>
+<!-- /maincontainer -->
+<!-- Footer -->
+<footer id="footer">
+  <section class="footersocial">
+    <div class="container">
+      <div class="row">
+        
+		<div class="span3 aboutus">
+          <h2>关于我们</h2>
+          <p> DFgH小组项目————SecHanDrift ，一个用来二手和漂流的网站平台 DFgH小组项目————SecHanDrift ，一个用来二手和漂流的网站平台 <br>
+            <br>
+           </p>
+        </div>
+        <div class="span3 contact">
+          <h2>联系我们 </h2>
+          <ul>
+            <li class="phone"> +123 456 7890, +123 456 7890</li>
+            <li class="mobile"> +123 456 7890, +123 456 78900</li>
+            <li class="email"> test@test.com</li>
+            
+          </ul>
+        </div>
+        <div class="span3 twitter">
+          <h2>微博 </h2>
+          <div>
+          </div>
+        </div>
+        <div class="span3 facebook">
+          <h2>Facebook </h2>
+          <div id="fb-root"></div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  
+</footer>
+<!-- javascript
+    ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/application.js"></script>
+<script src="js/bootstrap-tooltip.js"></script>
+<script defer src="js/jquery.fancybox.js"></script>
+<script defer src="js/jquery.flexslider.js"></script>
+<script type="text/javascript" src="js/jquery.tweet.js"></script>
+<script  src="js/cloud-zoom.1.0.2.js"></script>
+<script  type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript"  src="js/jquery.carouFredSel-6.1.0-packed.js"></script>
+<script type="text/javascript"  src="js/jquery.mousewheel.min.js"></script>
+<script type="text/javascript"  src="js/jquery.touchSwipe.min.js"></script>
+<script type="text/javascript"  src="js/jquery.ba-throttle-debounce.min.js"></script>
+<script defer src="js/custom.js"></script>
+</body>
+</html>
